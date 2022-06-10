@@ -1,0 +1,19 @@
+
+/* global selectors */
+
+* {
+    font-family: Arial, 'Trebuchet MS', sans-serif;
+}
+
+/* type selectors */
+
+h1 {
+    background-color: rgb(56, 159, 159);
+    text-align: center;
+}
+
+/* class selectors */
+
+.opening {
+    font-size: 22px;
+}
