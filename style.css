@@ -3,12 +3,28 @@
 
 * {
     font-family: Arial, 'Trebuchet MS', sans-serif;
+    margin: 0; /* This puts all content against the edge of the screen */
+    padding: ; /* The only thing I noticed with this is it pushed my listed elements against the edge of the screen instead of keeping them indented away from the parent element */
+    box-sizing: border-box; /* This makes it so the height and width of an element are unchanged when adding padding or border to an element (to a degree!) This will allow padding and borders to fill up space inside of the defined height and width instead of outside until the padding or border gets too large, then it will expand your element. Adding a margin still pushes other elements away */
+
+    /* These global settings are important to remember */
+
 }
 
 /* ID selectors */
 
 #pic {
     text-align: center;
+}
+
+#box1 {
+    background-color: red;
+    font-size: 25px;
+    padding: 0px;
+    border: 15px solid green;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
 }
 
 /* class selectors */
