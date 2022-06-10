@@ -5,10 +5,9 @@
     font-family: Arial, 'Trebuchet MS', sans-serif;
 }
 
-/* type selectors */
+/* ID selectors */
 
-h1 {
-    background-color: rgb(56, 159, 159);
+#pic {
     text-align: center;
 }
 
@@ -16,4 +15,17 @@ h1 {
 
 .opening {
     font-size: 22px;
+}
+
+/* type selectors */
+
+h1 {
+    background-color: rgb(56, 159, 159);
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 51%), 5px 7px 5px rgb(0 0 0 / 30%);
 }
